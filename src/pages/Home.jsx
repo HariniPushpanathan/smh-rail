@@ -28,7 +28,7 @@ export default function Home() {
       category: 'Mainline Freight & Passenger',
       title: 'H10 Series Eco-Locomotive',
       tagline: 'Heavy-Duty Diesel Electric Mainline Workhorse with Low-Emission Architecture',
-      img: '/src/assets/g10-loco.jpg',
+      img: '/assets/g10-loco.jpg',
       specs: [
         { label: 'Engine Rating', val: '3,300 HP (2,460 kW) Turbocharged' },
         { label: 'Tractive Effort', val: '450 kN Starting / 360 kN Continuous' },

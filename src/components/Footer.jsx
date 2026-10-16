@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <div className="h-10 px-3 py-1 bg-white border border-slate-200 rounded-lg flex items-center justify-center shadow-sm">
-                <img src="/src/assets/logo.jpg" alt="SMH Rail Logo" className="h-7 object-contain" />
+                <img src="/assets/logo.jpg" alt="SMH Rail Logo" className="h-7 object-contain" />
               </div>
               <span className="font-heading text-2xl font-bold tracking-wider text-navy-900">
                 SMH <span className="text-lightBlue-600">RAIL</span>

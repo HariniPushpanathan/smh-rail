@@ -38,7 +38,7 @@ export default function Facilities() {
           <div className="bg-white rounded-3xl p-6 sm:p-8 mb-16 border border-slate-200 shadow-lg">
             <div className="relative h-[380px] sm:h-[500px] rounded-2xl overflow-hidden shadow-md">
               <img 
-                src="/public/assets/facility-aerial.jpg" 
+                src="/assets/facility-aerial.jpg" 
                 alt="SMH Rail Rasa Facility Aerial" 
                 className="w-full h-full object-cover"
                 onError={(e) => { e.target.src = 'https://via.placeholder.com/1200x500?text=Rasa+Facility+Aerial'; }}

@@ -832,7 +832,7 @@ export default function Home() {
               <img src="/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
               <img src="/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />

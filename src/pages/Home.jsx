@@ -48,7 +48,7 @@ export default function Home() {
       category: 'Urban Mass Transit',
       title: 'MRT2 Driverless Metro (GoA4)',
       tagline: 'High-Capacity Rapid Transit Electric Multiple Unit for Urban Networks',
-      img: '/src/assets/mrt2.jpg',
+      img: '/assets/mrt2.jpg',
       specs: [
         { label: 'Configuration', val: '4-Car Driverless Electric Multiple Unit (EMU)' },
         { label: 'Passenger Capacity', val: '1,200 Passengers' },
@@ -69,7 +69,7 @@ export default function Home() {
       category: 'Heavy Logistics',
       title: 'High-Payload Rail Freight Wagon',
       tagline: 'Cor-Ten Steel Structural Wagons for Bulk Mineral and Container Transport',
-      img: '/src/assets/freight.jpg',
+      img: '/assets/freight.jpg',
       specs: [
         { label: 'Payload Capacity', val: 'Up to 65 Tonnes per Wagon' },
         { label: 'Gross Rail Load', val: '80 - 100 Tonnes' },
@@ -88,7 +88,7 @@ export default function Home() {
       category: 'MRO & Precision Engineering',
       title: 'Precision Wheelset & Overhaul Hub',
       tagline: 'Certified ISO & IRIS Overhaul Center Delivering Complete Zero-Hour Fleet Life Extension',
-      img: '/src/assets/wheel.jpg',
+      img: '/assets/wheel.jpg',
       specs: [
         { label: 'Facility Capability', val: 'Overhaul, Reprofiling & Complete Wheel Assembly' },
         { label: 'CNC Tolerance', val: 'Sub-millimeter ±0.05 mm Diametrical Accuracy' },
@@ -311,7 +311,7 @@ export default function Home() {
               <div className="bg-white rounded-2xl p-4 sm:p-5 relative group border border-slate-200 shadow-xl">
                 <div className="relative h-72 sm:h-80 rounded-xl overflow-hidden bg-slate-100">
                   <img 
-                    src="/public/assets/g10-loco.jpg" 
+                    src="/assets/g10-loco.jpg" 
                     alt="SMH Rail H10 Eco-Locomotive" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=H10+Locomotive'; }}
@@ -539,7 +539,7 @@ export default function Home() {
                 >
                   {/* After Image (Background Layer) */}
                   <img 
-                    src="/src/assets/mainline.jpg" 
+                    src="/assets/mainline.jpg" 
                     alt="After Overhaul" 
                     className="absolute inset-0 w-full h-full object-cover pointer-events-none" 
                   />
@@ -553,7 +553,7 @@ export default function Home() {
                     style={{ width: `${sliderPosition}%` }}
                   >
                     <img 
-                      src="/src/assets/mro.jpg" 
+                      src="/assets/mro.jpg" 
                       alt="Before Overhaul" 
                       className="absolute top-0 left-0 h-full max-w-none object-cover" 
                       style={{ width: '100%', minWidth: '600px' }}
@@ -823,54 +823,54 @@ export default function Home() {
           <div className="animate-marquee flex items-center gap-12 py-2">
             {/* Original Items */}
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
               <img src="/src/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
             </div>
             
             {/* Duplicate Set for Seamless Infinite Sliding */}
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
             </div>
           </div>
         </div>

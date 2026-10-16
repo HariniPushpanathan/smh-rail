@@ -28,7 +28,7 @@ export default function Home() {
       category: 'Mainline Freight & Passenger',
       title: 'H10 Series Eco-Locomotive',
       tagline: 'Heavy-Duty Diesel Electric Mainline Workhorse with Low-Emission Architecture',
-      img: '/src/assets/g10-loco.jpg',
+      img: '/assets/g10-loco.jpg',
       specs: [
         { label: 'Engine Rating', val: '3,300 HP (2,460 kW) Turbocharged' },
         { label: 'Tractive Effort', val: '450 kN Starting / 360 kN Continuous' },
@@ -48,7 +48,7 @@ export default function Home() {
       category: 'Urban Mass Transit',
       title: 'MRT2 Driverless Metro (GoA4)',
       tagline: 'High-Capacity Rapid Transit Electric Multiple Unit for Urban Networks',
-      img: '/src/assets/mrt2.jpg',
+      img: '/assets/mrt2.jpg',
       specs: [
         { label: 'Configuration', val: '4-Car Driverless Electric Multiple Unit (EMU)' },
         { label: 'Passenger Capacity', val: '1,200 Passengers' },
@@ -69,7 +69,7 @@ export default function Home() {
       category: 'Heavy Logistics',
       title: 'High-Payload Rail Freight Wagon',
       tagline: 'Cor-Ten Steel Structural Wagons for Bulk Mineral and Container Transport',
-      img: '/src/assets/freight.jpg',
+      img: '/assets/freight.jpg',
       specs: [
         { label: 'Payload Capacity', val: 'Up to 65 Tonnes per Wagon' },
         { label: 'Gross Rail Load', val: '80 - 100 Tonnes' },
@@ -88,7 +88,7 @@ export default function Home() {
       category: 'MRO & Precision Engineering',
       title: 'Precision Wheelset & Overhaul Hub',
       tagline: 'Certified ISO & IRIS Overhaul Center Delivering Complete Zero-Hour Fleet Life Extension',
-      img: '/src/assets/wheel.jpg',
+      img: '/assets/wheel.jpg',
       specs: [
         { label: 'Facility Capability', val: 'Overhaul, Reprofiling & Complete Wheel Assembly' },
         { label: 'CNC Tolerance', val: 'Sub-millimeter ±0.05 mm Diametrical Accuracy' },
@@ -109,7 +109,7 @@ export default function Home() {
     malaysia: {
       country: "Malaysia",
       role: "Global Headquarters & Manufacturing Hub",
-      flag: "🇲🇾",
+      flag: "",
       coords: { x: "74.5%", y: "56%" }, // Calibrated to map.jpg
       stats: "100+ Metro Trains Assembled & Mainline Fleets",
       client: "MRT Corp, KTMB (Keretapi Tanah Melayu), Prasarana",
@@ -123,7 +123,7 @@ export default function Home() {
     germany: {
       country: "Germany",
       role: "European Engineering & Precision Overhaul Partnership",
-      flag: "🇩🇪",
+      flag: "",
       coords: { x: "51.5%", y: "25%" }, // Calibrated to map.jpg
       stats: "Critical Locomotive Subsystems & Remanufacturing",
       client: "European Rail Logistics & Engineering Partners",
@@ -137,7 +137,7 @@ export default function Home() {
     tanzania: {
       country: "Tanzania",
       role: "East African Freight Overhaul Operations",
-      flag: "🇹🇿",
+      flag: "",
       coords: { x: "57.5%", y: "63%" }, // Calibrated to map.jpg
       stats: "Heavy Freight Diesel Locomotives Remanufactured",
       client: "TAZARA (Tanzania-Zambia Railway Authority)",
@@ -151,7 +151,7 @@ export default function Home() {
     zambia: {
       country: "Zambia",
       role: "Cross-Border Southern African Rail Infrastructure",
-      flag: "🇿🇲",
+      flag: "",
       coords: { x: "55.5%", y: "71%" }, // Calibrated to map.jpg
       stats: "Mainline Haulage Fleet Revitalization",
       client: "Zambia Railways / TAZARA Southern Division",
@@ -165,7 +165,7 @@ export default function Home() {
     thailand: {
       country: "Thailand",
       role: "ASEAN Regional Corridor Services",
-      flag: "🇹🇭",
+      flag: "",
       coords: { x: "72.5%", y: "49%" }, // Calibrated to map.jpg
       stats: "Passenger & Freight Locomotives Modernized",
       client: "State Railway of Thailand (SRT) Supply Chain",
@@ -179,7 +179,7 @@ export default function Home() {
     myanmar: {
       country: "Myanmar",
       role: "Turnkey Locomotives & Wagon Maintenance",
-      flag: "🇲🇲",
+      flag: "",
       coords: { x: "70.5%", y: "46%" }, // Calibrated to map.jpg
       stats: "Locomotive Supply & Remanufacturing",
       client: "Myanma Railways",
@@ -193,7 +193,7 @@ export default function Home() {
     india: {
       country: "India",
       role: "Advanced Wheel & Component Manufacturing",
-      flag: "🇮🇳",
+      flag: "",
       coords: { x: "68.5%", y: "47%" }, // Calibrated to map.jpg
       stats: "Wheel India Facility Partnership",
       client: "Precision Railway Wheel & Axle Programs",
@@ -207,7 +207,7 @@ export default function Home() {
     singapore: {
       country: "Singapore",
       role: "Cross-Border Transit Support",
-      flag: "🇸🇬",
+      flag: "",
       coords: { x: "75.2%", y: "59.5%" }, // Calibrated right next to Malaysia
       stats: "Inter-City Rail Maintenance Collaboration",
       client: "Cross-Border Logistics & Regional Linkages",
@@ -539,7 +539,7 @@ export default function Home() {
                 >
                   {/* After Image (Background Layer) */}
                   <img 
-                    src="/src/assets/mainline.jpg" 
+                    src="/assets/mainline.jpg" 
                     alt="After Overhaul" 
                     className="absolute inset-0 w-full h-full object-cover pointer-events-none" 
                   />
@@ -553,7 +553,7 @@ export default function Home() {
                     style={{ width: `${sliderPosition}%` }}
                   >
                     <img 
-                      src="/src/assets/mro.jpg" 
+                      src="/assets/mro.jpg" 
                       alt="Before Overhaul" 
                       className="absolute top-0 left-0 h-full max-w-none object-cover" 
                       style={{ width: '100%', minWidth: '600px' }}
@@ -826,54 +826,54 @@ export default function Home() {
           <div className="animate-marquee flex items-center gap-12 py-2">
             {/* Original Items */}
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
             </div>
             
             {/* Duplicate Set for Seamless Infinite Sliding */}
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-siemens.png" alt="Siemens" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-hyundai.png" alt="Hyundai Rotem" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-thales.png" alt="Thales" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-abb.png" alt="ABB" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-caterpillar.png" alt="Caterpillar" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-cummins.png" alt="Cummins" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-medha.png" alt="Medha" className="max-h-7 max-w-full object-contain" />
             </div>
             <div className="h-12 w-36 px-3 py-1 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center flex-shrink-0">
-              <img src="/src/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
+              <img src="/assets/partner-wabtec.jpg" alt="Wabtec" className="max-h-7 max-w-full object-contain" />
             </div>
           </div>
         </div>

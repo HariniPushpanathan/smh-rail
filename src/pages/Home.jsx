@@ -110,7 +110,7 @@ export default function Home() {
       country: "Malaysia",
       role: "Global Headquarters & Manufacturing Hub",
       flag: "🇲🇾",
-      coords: { x: "78.5%", y: "59%" }, // Calibrated to map.jpg
+      coords: { x: "74.5%", y: "56%" }, // Calibrated to map.jpg
       stats: "100+ Metro Trains Assembled & Mainline Fleets",
       client: "MRT Corp, KTMB (Keretapi Tanah Melayu), Prasarana",
       scope: "Design, turnkey assembly, and supply of 49 driverless trainsets for MRT Line-2 Putrajaya, 58 trainsets for MRT Line-1 Kajang, and complete locomotive remanufacturing programs.",
@@ -124,7 +124,7 @@ export default function Home() {
       country: "Germany",
       role: "European Engineering & Precision Overhaul Partnership",
       flag: "🇩🇪",
-      coords: { x: "51.5%", y: "26%" }, // Calibrated to map.jpg
+      coords: { x: "51.5%", y: "25%" }, // Calibrated to map.jpg
       stats: "Critical Locomotive Subsystems & Remanufacturing",
       client: "European Rail Logistics & Engineering Partners",
       scope: "Remanufacturing of heavy mainline diesel locomotives and delivery of customized railway engineering assemblies compliant with strict European TSI standards.",
@@ -138,7 +138,7 @@ export default function Home() {
       country: "Tanzania",
       role: "East African Freight Overhaul Operations",
       flag: "🇹🇿",
-      coords: { x: "57.5%", y: "66%" }, // Calibrated to map.jpg
+      coords: { x: "57.5%", y: "63%" }, // Calibrated to map.jpg
       stats: "Heavy Freight Diesel Locomotives Remanufactured",
       client: "TAZARA (Tanzania-Zambia Railway Authority)",
       scope: "Life extension and turnkey modernization of aging mainline diesel-electric freight locomotives connecting Dar es Salaam port to the African Copperbelt.",
@@ -152,7 +152,7 @@ export default function Home() {
       country: "Zambia",
       role: "Cross-Border Southern African Rail Infrastructure",
       flag: "🇿🇲",
-      coords: { x: "55.5%", y: "73%" }, // Calibrated to map.jpg
+      coords: { x: "55.5%", y: "71%" }, // Calibrated to map.jpg
       stats: "Mainline Haulage Fleet Revitalization",
       client: "Zambia Railways / TAZARA Southern Division",
       scope: "Comprehensive engine, traction motor, and bogie overhauls extending service lifetime by an additional 15 years in extreme African climatic conditions.",
@@ -166,7 +166,7 @@ export default function Home() {
       country: "Thailand",
       role: "ASEAN Regional Corridor Services",
       flag: "🇹🇭",
-      coords: { x: "75.5%", y: "51%" }, // Calibrated to map.jpg
+      coords: { x: "72.5%", y: "49%" }, // Calibrated to map.jpg
       stats: "Passenger & Freight Locomotives Modernized",
       client: "State Railway of Thailand (SRT) Supply Chain",
       scope: "Supply of high-efficiency locomotive components, wheel reprofiling support, and technical collaboration for cross-border freight interoperability.",
@@ -180,7 +180,7 @@ export default function Home() {
       country: "Myanmar",
       role: "Turnkey Locomotives & Wagon Maintenance",
       flag: "🇲🇲",
-      coords: { x: "73.5%", y: "49%" }, // Calibrated to map.jpg
+      coords: { x: "70.5%", y: "46%" }, // Calibrated to map.jpg
       stats: "Locomotive Supply & Remanufacturing",
       client: "Myanma Railways",
       scope: "Delivery and remanufacture of diesel-electric locomotives to bolster passenger transportation across primary intercity routes.",
@@ -194,7 +194,7 @@ export default function Home() {
       country: "India",
       role: "Advanced Wheel & Component Manufacturing",
       flag: "🇮🇳",
-      coords: { x: "68.5%", y: "45%" }, // Calibrated to map.jpg
+      coords: { x: "68.5%", y: "47%" }, // Calibrated to map.jpg
       stats: "Wheel India Facility Partnership",
       client: "Precision Railway Wheel & Axle Programs",
       scope: "Co-development and specialized maintenance facility for heavy rail wheelsets, traction gearing, and axle assembly programs.",
@@ -208,7 +208,7 @@ export default function Home() {
       country: "Singapore",
       role: "Cross-Border Transit Support",
       flag: "🇸🇬",
-      coords: { x: "79.3%", y: "61.5%" }, // Calibrated right next to Malaysia
+      coords: { x: "75.2%", y: "59.5%" }, // Calibrated right next to Malaysia
       stats: "Inter-City Rail Maintenance Collaboration",
       client: "Cross-Border Logistics & Regional Linkages",
       scope: "Technical support and spare parts supply for cross-border rail connections between Johor and Singapore.",

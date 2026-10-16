@@ -311,7 +311,7 @@ export default function Home() {
               <div className="bg-white rounded-2xl p-4 sm:p-5 relative group border border-slate-200 shadow-xl">
                 <div className="relative h-72 sm:h-80 rounded-xl overflow-hidden bg-slate-100">
                   <img 
-                    src="/assets/g10-loco.jpg" 
+                    src="/public/assets/g10-loco.jpg" 
                     alt="SMH Rail H10 Eco-Locomotive" 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=H10+Locomotive'; }}

@@ -38,7 +38,7 @@ export default function Facilities() {
           <div className="bg-white rounded-3xl p-6 sm:p-8 mb-16 border border-slate-200 shadow-lg">
             <div className="relative h-[380px] sm:h-[500px] rounded-2xl overflow-hidden shadow-md">
               <img 
-                src="/src/assets/facility-aerial.jpg" 
+                src="/assets/facility-aerial.jpg" 
                 alt="SMH Rail Rasa Facility Aerial" 
                 className="w-full h-full object-cover"
                 onError={(e) => { e.target.src = 'https://via.placeholder.com/1200x500?text=Rasa+Facility+Aerial'; }}
@@ -113,7 +113,7 @@ export default function Facilities() {
               <div className="lg:col-span-6">
                 <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-sm">
                   <img 
-                    src="/src/assets/mrt2.jpg" 
+                    src="/assets/mrt2.jpg" 
                     alt="Electric Train Assembly Line" 
                     className="rounded-xl w-full h-[320px] object-cover"
                     onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=Assembly+Plant'; }}
@@ -127,7 +127,7 @@ export default function Facilities() {
               <div className="lg:col-span-6 order-2 lg:order-1">
                 <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-sm">
                   <img 
-                    src="/src/assets/g10-loco.jpg" 
+                    src="/assets/g10-loco.jpg" 
                     alt="Locomotive Manufacturing Plant" 
                     className="rounded-xl w-full h-[320px] object-cover"
                     onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=Locomotive+Plant'; }}
@@ -169,7 +169,7 @@ export default function Facilities() {
               <div className="lg:col-span-6">
                 <div className="bg-white p-3 rounded-2xl border border-slate-200 shadow-sm">
                   <img 
-                    src="/src/assets/wheel.jpg" 
+                    src="/assets/wheel.jpg" 
                     alt="Automated Wheel Lathe Center" 
                     className="rounded-xl w-full h-[320px] object-cover"
                     onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=Wheel+Center'; }}

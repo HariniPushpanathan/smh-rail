@@ -755,10 +755,10 @@ export default function Home() {
                     onClick={() => setActiveCountry(key)}
                     style={{ left: item.coords.x, top: item.coords.y }}
                     className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-full transition-all cursor-pointer flex items-center justify-center group z-10 ${
-                      isActive 
-                        ? 'w-6 h-6 bg-cyan-400 ring-4 ring-cyan-200 scale-125 shadow-lg' 
-                        : 'w-4 h-4 bg-lightBlue-500 hover:scale-125 shadow'
-                    }`}
+  isActive 
+    ? 'w-6 h-6 bg-amber-400 ring-4 ring-white scale-125 shadow-xl' 
+    : 'w-4 h-4 bg-rose-500 hover:scale-125 shadow-md'
+}`}
                     title={item.country}
                   >
                     <span className={`absolute rounded-full bg-cyan-400/50 animate-ping pointer-events-none ${isActive ? 'w-10 h-10' : 'w-6 h-6'}`}></span>

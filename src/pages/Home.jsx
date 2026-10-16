@@ -109,7 +109,7 @@ export default function Home() {
     malaysia: {
       country: "Malaysia",
       role: "Global Headquarters & Manufacturing Hub",
-      flag: "🇲🇾",
+      flag: "",
       coords: { x: "78%", y: "58%" },
       stats: "100+ Metro Trains Assembled & Mainline Fleets",
       client: "MRT Corp, KTMB (Keretapi Tanah Melayu), Prasarana",
@@ -123,7 +123,7 @@ export default function Home() {
     germany: {
       country: "Germany",
       role: "European Engineering & Precision Overhaul Partnership",
-      flag: "🇩🇪",
+      flag: "",
       coords: { x: "51%", y: "30%" },
       stats: "Critical Locomotive Subsystems & Remanufacturing",
       client: "European Rail Logistics & Engineering Partners",
@@ -137,7 +137,7 @@ export default function Home() {
     tanzania: {
       country: "Tanzania",
       role: "East African Freight Overhaul Operations",
-      flag: "🇹🇿",
+      flag: "",
       coords: { x: "58%", y: "65%" },
       stats: "Heavy Freight Diesel Locomotives Remanufactured",
       client: "TAZARA (Tanzania-Zambia Railway Authority)",
@@ -151,7 +151,7 @@ export default function Home() {
     zambia: {
       country: "Zambia",
       role: "Cross-Border Southern African Rail Infrastructure",
-      flag: "🇿🇲",
+      flag: "",
       coords: { x: "56%", y: "72%" },
       stats: "Mainline Haulage Fleet Revitalization",
       client: "Zambia Railways / TAZARA Southern Division",
@@ -165,7 +165,7 @@ export default function Home() {
     thailand: {
       country: "Thailand",
       role: "ASEAN Regional Corridor Services",
-      flag: "🇹🇭",
+      flag: "",
       coords: { x: "74%", y: "52%" },
       stats: "Passenger & Freight Locomotives Modernized",
       client: "State Railway of Thailand (SRT) Supply Chain",
@@ -179,7 +179,7 @@ export default function Home() {
     myanmar: {
       country: "Myanmar",
       role: "Turnkey Locomotives & Wagon Maintenance",
-      flag: "🇲🇲",
+      flag: "",
       coords: { x: "72%", y: "48%" },
       stats: "Locomotive Supply & Remanufacturing",
       client: "Myanma Railways",
@@ -193,7 +193,7 @@ export default function Home() {
     india: {
       country: "India",
       role: "Advanced Wheel & Component Manufacturing",
-      flag: "🇮🇳",
+      flag: "",
       coords: { x: "68%", y: "45%" },
       stats: "Wheel India Facility Partnership",
       client: "Precision Railway Wheel & Axle Programs",
@@ -207,7 +207,7 @@ export default function Home() {
     singapore: {
       country: "Singapore",
       role: "Cross-Border Transit Support",
-      flag: "🇸🇬",
+      flag: "",
       coords: { x: "77%", y: "62%" },
       stats: "Inter-City Rail Maintenance Collaboration",
       client: "Cross-Border Logistics & Regional Linkages",
@@ -791,7 +791,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <div className="text-[11px] uppercase text-slate-400 font-bold">Key Client / Authority</div>
+                  <div className="text-[11px] uppercase text-slate-400 font-bold">Key Client</div>
                   <div className="text-xs sm:text-sm font-semibold text-slate-700 mt-0.5">{currentProject.client}</div>
                 </div>
 

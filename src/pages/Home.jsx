@@ -110,7 +110,7 @@ export default function Home() {
       country: "Malaysia",
       role: "Global Headquarters & Manufacturing Hub",
       flag: "",
-      coords: { x: "78%", y: "58%" },
+      coords: { x: "78.5%", y: "59%" }, // Calibrated to map.jpg
       stats: "100+ Metro Trains Assembled & Mainline Fleets",
       client: "MRT Corp, KTMB (Keretapi Tanah Melayu), Prasarana",
       scope: "Design, turnkey assembly, and supply of 49 driverless trainsets for MRT Line-2 Putrajaya, 58 trainsets for MRT Line-1 Kajang, and complete locomotive remanufacturing programs.",
@@ -124,7 +124,7 @@ export default function Home() {
       country: "Germany",
       role: "European Engineering & Precision Overhaul Partnership",
       flag: "",
-      coords: { x: "51%", y: "30%" },
+      coords: { x: "51.5%", y: "26%" }, // Calibrated to map.jpg
       stats: "Critical Locomotive Subsystems & Remanufacturing",
       client: "European Rail Logistics & Engineering Partners",
       scope: "Remanufacturing of heavy mainline diesel locomotives and delivery of customized railway engineering assemblies compliant with strict European TSI standards.",
@@ -138,7 +138,7 @@ export default function Home() {
       country: "Tanzania",
       role: "East African Freight Overhaul Operations",
       flag: "",
-      coords: { x: "58%", y: "65%" },
+      coords: { x: "57.5%", y: "66%" }, // Calibrated to map.jpg
       stats: "Heavy Freight Diesel Locomotives Remanufactured",
       client: "TAZARA (Tanzania-Zambia Railway Authority)",
       scope: "Life extension and turnkey modernization of aging mainline diesel-electric freight locomotives connecting Dar es Salaam port to the African Copperbelt.",
@@ -152,7 +152,7 @@ export default function Home() {
       country: "Zambia",
       role: "Cross-Border Southern African Rail Infrastructure",
       flag: "",
-      coords: { x: "56%", y: "72%" },
+      coords: { x: "55.5%", y: "73%" }, // Calibrated to map.jpg
       stats: "Mainline Haulage Fleet Revitalization",
       client: "Zambia Railways / TAZARA Southern Division",
       scope: "Comprehensive engine, traction motor, and bogie overhauls extending service lifetime by an additional 15 years in extreme African climatic conditions.",
@@ -166,7 +166,7 @@ export default function Home() {
       country: "Thailand",
       role: "ASEAN Regional Corridor Services",
       flag: "",
-      coords: { x: "74%", y: "52%" },
+      coords: { x: "75.5%", y: "51%" }, // Calibrated to map.jpg
       stats: "Passenger & Freight Locomotives Modernized",
       client: "State Railway of Thailand (SRT) Supply Chain",
       scope: "Supply of high-efficiency locomotive components, wheel reprofiling support, and technical collaboration for cross-border freight interoperability.",
@@ -180,7 +180,7 @@ export default function Home() {
       country: "Myanmar",
       role: "Turnkey Locomotives & Wagon Maintenance",
       flag: "",
-      coords: { x: "72%", y: "48%" },
+      coords: { x: "73.5%", y: "49%" }, // Calibrated to map.jpg
       stats: "Locomotive Supply & Remanufacturing",
       client: "Myanma Railways",
       scope: "Delivery and remanufacture of diesel-electric locomotives to bolster passenger transportation across primary intercity routes.",
@@ -194,7 +194,7 @@ export default function Home() {
       country: "India",
       role: "Advanced Wheel & Component Manufacturing",
       flag: "",
-      coords: { x: "68%", y: "45%" },
+      coords: { x: "68.5%", y: "45%" }, // Calibrated to map.jpg
       stats: "Wheel India Facility Partnership",
       client: "Precision Railway Wheel & Axle Programs",
       scope: "Co-development and specialized maintenance facility for heavy rail wheelsets, traction gearing, and axle assembly programs.",
@@ -208,7 +208,7 @@ export default function Home() {
       country: "Singapore",
       role: "Cross-Border Transit Support",
       flag: "",
-      coords: { x: "77%", y: "62%" },
+      coords: { x: "79.3%", y: "61.5%" }, // Calibrated right next to Malaysia
       stats: "Inter-City Rail Maintenance Collaboration",
       client: "Cross-Border Logistics & Regional Linkages",
       scope: "Technical support and spare parts supply for cross-border rail connections between Johor and Singapore.",
@@ -735,12 +735,15 @@ export default function Home() {
           {/* Interactive World Map & Dossier Container */}
           <div className="bg-[#f8fafc] rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-xl grid lg:grid-cols-12 gap-8 items-center">
             
-            {/* Visual Map Area with Pins */}
-            <div className="lg:col-span-7 relative h-[320px] sm:h-[420px] bg-slate-200/70 rounded-2xl overflow-hidden border border-slate-300 flex items-center justify-center">
-              <div className="absolute inset-0 opacity-25 bg-[radial-gradient(#0284c7_1px,transparent_1px)] [background-size:24px_24px]"></div>
-              <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-bold uppercase tracking-widest text-xs pointer-events-none">
-                Interactive Global Network Map
-              </div>
+            {/* Visual Map Area with Background Image & Pins */}
+            <div className="lg:col-span-7 relative h-[320px] sm:h-[420px] bg-slate-900 rounded-2xl overflow-hidden border border-slate-300 flex items-center justify-center">
+              
+              {/* World Map Background Image */}
+              <img 
+                src="/assets/world-map.png" 
+                alt="World Map" 
+                className="absolute inset-0 w-full h-full object-cover opacity-85 pointer-events-none"
+              />
 
               {/* Render Map Pins */}
               {Object.keys(GLOBAL_PROJECTS).map((key) => {
@@ -753,12 +756,12 @@ export default function Home() {
                     style={{ left: item.coords.x, top: item.coords.y }}
                     className={`absolute -translate-x-1/2 -translate-y-1/2 rounded-full transition-all cursor-pointer flex items-center justify-center group z-10 ${
                       isActive 
-                        ? 'w-6 h-6 bg-lightBlue-600 ring-4 ring-lightBlue-300 scale-125 shadow-lg' 
-                        : 'w-4 h-4 bg-cyan-500 hover:scale-125 shadow'
+                        ? 'w-6 h-6 bg-cyan-400 ring-4 ring-cyan-200 scale-125 shadow-lg' 
+                        : 'w-4 h-4 bg-lightBlue-500 hover:scale-125 shadow'
                     }`}
                     title={item.country}
                   >
-                    <span className={`absolute rounded-full bg-cyan-400/40 animate-ping pointer-events-none ${isActive ? 'w-10 h-10' : 'w-6 h-6'}`}></span>
+                    <span className={`absolute rounded-full bg-cyan-400/50 animate-ping pointer-events-none ${isActive ? 'w-10 h-10' : 'w-6 h-6'}`}></span>
                     <span className="sr-only">{item.country}</span>
                   </button>
                 );
@@ -791,7 +794,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <div className="text-[11px] uppercase text-slate-400 font-bold">Key Client</div>
+                  <div className="text-[11px] uppercase text-slate-400 font-bold">Key Client / Authority</div>
                   <div className="text-xs sm:text-sm font-semibold text-slate-700 mt-0.5">{currentProject.client}</div>
                 </div>
 
@@ -811,8 +814,7 @@ export default function Home() {
 
           </div>
 
-        </div>
-      </section>
+         
 
       {/* Partners Sliding Infinite Marquee Section */}
       <section className="py-8 bg-white border-b border-slate-200 overflow-hidden relative">

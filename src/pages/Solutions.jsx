@@ -104,7 +104,7 @@ export default function Solutions() {
             <div className="lg:col-span-6">
               <div className="bg-white rounded-3xl p-4 overflow-hidden border border-slate-200 shadow-lg">
                 <img 
-                  src="/src/assets/mrt2.jpg" 
+                  src="/assets/mrt2.jpg" 
                   alt="MRT Putrajaya Line Train" 
                   className="rounded-2xl w-full h-[400px] object-cover shadow-md"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=MRT+Putrajaya+Line'; }}
@@ -128,7 +128,7 @@ export default function Solutions() {
             <div className="lg:col-span-6 order-2 lg:order-1">
               <div className="bg-white rounded-3xl p-4 overflow-hidden border border-slate-200 shadow-lg">
                 <img 
-                  src="/src/assets/g10-loco.jpg" 
+                  src="/assets/g10-loco.jpg" 
                   alt="SMH Rail H10 Eco-Locomotive" 
                   className="rounded-2xl w-full h-[400px] object-cover shadow-md"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=H10+Eco-Locomotive'; }}
@@ -245,7 +245,7 @@ export default function Solutions() {
             <div className="lg:col-span-6">
               <div className="bg-white rounded-3xl p-4 overflow-hidden border border-slate-200 shadow-lg">
                 <img 
-                  src="/src/assets/mro.jpg" 
+                  src="/assets/mro.jpg" 
                   alt="MRO Heavy Workshop" 
                   className="rounded-2xl w-full h-[420px] object-cover shadow-md"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=MRO+Heavy+Workshop'; }}
@@ -269,7 +269,7 @@ export default function Solutions() {
             <div className="lg:col-span-6 order-2 lg:order-1">
               <div className="bg-white rounded-3xl p-4 overflow-hidden border border-slate-200 shadow-lg">
                 <img 
-                  src="/src/assets/freight.jpg" 
+                  src="/assets/freight.jpg" 
                   alt="Heavy Freight Wagon" 
                   className="rounded-2xl w-full h-[400px] object-cover shadow-md"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=Freight+Wagons'; }}
@@ -373,7 +373,7 @@ export default function Solutions() {
             <div className="lg:col-span-6">
               <div className="bg-white rounded-3xl p-4 overflow-hidden border border-slate-200 shadow-lg">
                 <img 
-                  src="/src/assets/wheel.jpg" 
+                  src="/assets/wheel.jpg" 
                   alt="Wheel Maintenance Center" 
                   className="rounded-2xl w-full h-[420px] object-cover shadow-md"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=Wheel+Maintenance'; }}
@@ -397,7 +397,7 @@ export default function Solutions() {
             <div className="lg:col-span-6 order-2 lg:order-1">
               <div className="bg-white rounded-3xl p-4 overflow-hidden border border-slate-200 shadow-lg">
                 <img 
-                  src="/src/assets/urban.jpg" 
+                  src="/assets/urban.jpg" 
                   alt="Airport People Mover System" 
                   className="rounded-2xl w-full h-[400px] object-cover shadow-md"
                   onError={(e) => { e.target.src = 'https://via.placeholder.com/600x400?text=Airport+APM'; }}

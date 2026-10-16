@@ -132,7 +132,7 @@ export default function Sustainability() {
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
                     <img 
-                      src="/src/assets/sdg9.jpg" 
+                      src="/assets/sdg9.jpg" 
                       alt="SDG 9" 
                       className="w-10 h-10 rounded-lg object-cover"
                       onError={(e) => { e.target.src = 'https://via.placeholder.com/40?text=SDG9'; }}
@@ -145,7 +145,7 @@ export default function Sustainability() {
 
                   <div className="flex items-start gap-4">
                     <img 
-                      src="/src/assets/sdg11.jpg" 
+                      src="/assets/sdg11.jpg" 
                       alt="SDG 11" 
                       className="w-10 h-10 rounded-lg object-cover"
                       onError={(e) => { e.target.src = 'https://via.placeholder.com/40?text=SDG11'; }}
@@ -158,7 +158,7 @@ export default function Sustainability() {
 
                   <div className="flex items-start gap-4">
                     <img 
-                      src="/src/assets/sdg13.jpg" 
+                      src="/assets/sdg13.jpg" 
                       alt="SDG 13" 
                       className="w-10 h-10 rounded-lg object-cover"
                       onError={(e) => { e.target.src = 'https://via.placeholder.com/40?text=SDG13'; }}

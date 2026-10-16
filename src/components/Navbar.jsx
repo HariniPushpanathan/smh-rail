@@ -78,7 +78,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-3 group">
             <div className="h-11 px-3 py-1 bg-white border border-slate-200 rounded-lg flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
               <img 
-                src="/src/assets/logo.jpg" 
+                src="/assets/logo.jpg" 
                 alt="SMH Rail Logo" 
                 className="h-8 object-contain" 
                 onError={(e) => { e.target.src = 'https://via.placeholder.com/120x40?text=SMH+RAIL'; }} 
